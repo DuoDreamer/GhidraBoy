@@ -46,7 +46,10 @@ jobs:
             ghidra_sha256: "85bd2990945f3a78df4d1e09f1bb1f40ab77be3bac62c6e7678900788c7f0f41"
           - ghidra_version: "12.0.2"
             ghidra_build_date: "20260130"
-            ghidra_sha256: "cf6e9de0b4d6e4ad2810bb4cd7fda59da726a98a454cd140694782aeaf2580e1"   
+            ghidra_sha256: "cf6e9de0b4d6e4ad2810bb4cd7fda59da726a98a454cd140694782aeaf2580e1"
+          - ghidra_version: "12.1.4"
+            ghidra_build_date: "20260921"
+            ghidra_sha256: "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db"
     env:
       GHIDRA_VERSION: ${{ matrix.ghidra_version }}
       GHIDRA_BUILD_DATE: ${{ matrix.ghidra_build_date }}

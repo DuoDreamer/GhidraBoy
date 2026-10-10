@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Add support for Ghidra 12.0, 12.0.1, 12.0.2 and 12.1.4 (based on Gekkio/GhidraBoy#18 by rrockru)
+
 ## 20250830 - 2025-08-30
 
 ### Changed
